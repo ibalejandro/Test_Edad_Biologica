@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="90dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/tvDisplay0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="¡Test valido para personas menores de 80 años!"
+        android:textSize="15dp">
+    </TextView>
+    
+    <EditText
+        android:id="@+id/etComando"
+		android:layout_marginTop="50dp"
+        android:layout_width="fill_parent"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su edad"
+        android:password="true" />
+    <TextView
+        android:id="@+id/tvInvalido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Edad Invalida"
+        android:textColor="@android:color/white" >
+    </TextView>
+
+    <LinearLayout 
+        android:weightSum="100"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+     >
+    <Button
+        android:layout_weight="20"
+        android:id="@+id/bEdad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+        android:text="CONTINUAR" >
+    </Button>
+    </LinearLayout>
+     
+</LinearLayout>

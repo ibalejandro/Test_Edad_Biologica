@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="80dp">
+  
+<TextView
+        android:id="@+id/tvDisplay21"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="Su Expectativa de Vida es"
+        android:textSize="24dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bExpectativa"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:text="CONTINUAR"
+        android:textSize="17dp" />
+
+</RelativeLayout>

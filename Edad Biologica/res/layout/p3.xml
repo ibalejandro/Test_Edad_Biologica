@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="70dp">
+  
+<TextView
+        android:id="@+id/tvDisplay2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="¿Reacciona violentamente?"
+        android:textSize="26dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bResp31"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="No"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bResp32"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bResp31"
+        android:layout_alignLeft="@+id/bResp31"
+        android:layout_marginBottom="68dp"
+        android:text="Si"
+        android:textSize="20dp" />
+    
+
+
+</RelativeLayout>

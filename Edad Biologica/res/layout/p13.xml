@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="70dp">
+  
+<TextView
+        android:id="@+id/tvDisplay12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="¿Cuanto fuma?"
+        android:textSize="26dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bResp131"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="Fumo 3 o mas veces al dia"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/bResp132"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bResp131"
+        android:layout_alignLeft="@+id/bResp131"
+        android:layout_marginBottom="80dp"
+        android:text="Fumo menos de 3 veces al dia"
+        android:textSize="16dp" />
+
+</RelativeLayout>

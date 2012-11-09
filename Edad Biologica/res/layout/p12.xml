@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+  
+<TextView
+        android:id="@+id/tvDisplay11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="¿Horas de sueño?"
+        android:textSize="35dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bResp121"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="Duermo menos de 7 horas diariamente"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/bResp122"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bResp121"
+        android:layout_alignLeft="@+id/bResp121"
+        android:layout_marginBottom="80dp"
+        android:text="Duermo 7 horas o mas diariamente"
+        android:textSize="17dp" />
+
+</RelativeLayout>

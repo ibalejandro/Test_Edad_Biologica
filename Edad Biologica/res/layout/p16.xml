@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+  
+<TextView
+        android:id="@+id/tvDisplay15"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="¿Cuantas veces come al dia?"
+        android:textSize="30dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bResp161"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="Como menos de 3 o mas de 6 veces al día "
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/bResp162"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bResp161"
+        android:layout_alignLeft="@+id/bResp161"
+        android:layout_marginBottom="80dp"
+        android:text="Como de 3 a 6 veces al dia"
+        android:textSize="17dp" />
+
+</RelativeLayout>

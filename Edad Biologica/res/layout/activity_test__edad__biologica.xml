@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="Your total is 0"
+        android:textSize="45dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bSub"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="Subtract one"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bSub"
+        android:layout_alignLeft="@+id/bSub"
+        android:layout_marginBottom="68dp"
+        android:text="Add one"
+        android:textSize="20dp" />
+
+</RelativeLayout>

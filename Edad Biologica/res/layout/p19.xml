@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="80dp">
+  
+<TextView
+        android:id="@+id/tvDisplay18"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="¿Relacion sentimental?"
+        android:textSize="27dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bResp191"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="No tengo pareja"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/bResp192"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bResp191"
+        android:layout_alignLeft="@+id/bResp191"
+        android:layout_marginBottom="80dp"
+        android:text="Tengo pareja"
+        android:textSize="17dp" />
+
+</RelativeLayout>

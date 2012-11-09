@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+  
+<TextView
+        android:id="@+id/tvDisplay9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="¿Actividad Fisica?"
+        android:textSize="35dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bResp101"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="Hago ejercicio menos de tres veces por semana"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/bResp102"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bResp101"
+        android:layout_alignLeft="@+id/bResp101"
+        android:layout_marginBottom="80dp"
+        android:text="Hago ejercicio tres o mas veces por semana"
+        android:textSize="17dp" />
+
+</RelativeLayout>

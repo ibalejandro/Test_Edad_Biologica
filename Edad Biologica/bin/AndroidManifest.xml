@@ -1,0 +1,286 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edad.biologica.ascach"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".CalculadorEdad"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Test_Edad_Biologica"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.TEST_EDAD_BIOLOGICA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           
+        <activity
+            android:name=".Sexo"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.SEXO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ReaccionViolenta"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.REACCIONVIOLENTA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Pesimista"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.PESIMISTA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".VariasCosas"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.VARIASCOSAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ViveSolo"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.VIVESOLO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CuentaPreocupaciones"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.CUENTAPREOCUPACIONES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Noventa"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.NOVENTA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Contextura"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.CONTEXTURA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ActividadFisica"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.ACTIVIDADFISICA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Stress"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.STRESS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".HorasDormido"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.HORASDORMIDO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Fuma"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.FUMA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".VisitaMedico"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.VISITAMEDICO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Dieta"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.DIETA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CuantoCome"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.CUANTOCOME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".IngiereAlcohol"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.INGIEREALCOHOL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Felicidad"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.FELICIDAD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".RelacionSentimental"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.RELACIONSENTIMENTAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Amistad"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.AMISTAD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Resultado"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.RESULTADO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+        <activity
+            android:name=".Expectativa"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.EXPECTATIVA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Continuar"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.CONTINUAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Mensajes"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.MENSAJES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Aviso"
+            android:label="@string/title_activity_test__edad__biologica" >
+            <intent-filter>
+                <action android:name="com.edad.biologica.ascach.AVISO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

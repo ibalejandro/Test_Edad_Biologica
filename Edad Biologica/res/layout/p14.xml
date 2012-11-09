@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="80dp">
+  
+<TextView
+        android:id="@+id/tvDisplay13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="¿Visita al medico?"
+        android:textSize="35dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bResp141"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="Lo visito muy rara vez"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/bResp142"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bResp141"
+        android:layout_alignLeft="@+id/bResp141"
+        android:layout_marginBottom="80dp"
+        android:text="Lo visito frecuentemente"
+        android:textSize="17dp" />
+
+</RelativeLayout>

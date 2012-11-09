@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="70dp">
+  
+<TextView
+        android:id="@+id/tvDisplay17"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="¿Que tan feliz se siente?"
+        android:textSize="27dp"
+        tools:context=".Test_Edad_Biologica" />
+
+    <Button
+        android:id="@+id/bResp181"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="Me siento infeliz o desdichado"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bResp182"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bResp181"
+        android:layout_alignLeft="@+id/bResp181"
+        android:layout_marginBottom="80dp"
+        android:text="Me siento satisfecho o muy feliz"
+        android:textSize="20dp" />
+
+</RelativeLayout>
