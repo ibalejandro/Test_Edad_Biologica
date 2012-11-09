@@ -1,0 +1,40 @@
+[PROJECT]
+Target=ejemplo 16.5.HEX
+Development_Mode=2
+Processor=0x886F
+ToolSuite=CCS
+Processor_Text=PIC16F886
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=C:\Documents and Settings\edgiral\Escritorio\Ejercicios Guia PICC, archivo C y proteus\Ejemplo 16.5\ejemplo 16.5.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[ejemplo 16.5.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=EJEMPL~1.C
+
+[Windows]
+0=0000 EJEMPL~1.C 0 0 796 451 3 0
+
+[Opened Files]
+1=C:\Documents and Settings\edgiral\Escritorio\Ejercicios Guia PICC, archivo C y proteus\Ejemplo 16.5\ejemplo 16.5.c
+2=C:\Documents and Settings\edgiral\Escritorio\Ejercicios Guia PICC, archivo C y proteus\Ejemplo 18.1\18.1.c
+3=
+[Units]
+Count=1
+1=ejemplo 16.5.c (main)

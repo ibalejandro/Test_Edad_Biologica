@@ -1,0 +1,110 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+006     PORTB
+006     kbd
+006     lcd
+007     PORTC
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+020     kbd_getc.kbd_call_count
+021.0   kbd_getc.kbd_down
+022     kbd_getc.last_key
+023     kbd_getc.col
+024     CONT
+025     J
+026     K
+027     MIL
+028     CEN
+029     DEC
+02A     UNI
+02B     VAL
+02C     @TRIS_C
+02D     kbd_getc.kchar
+02D     lcd_init.i
+02D     MAIN.@SCRATCH1
+02E     kbd_getc.row
+02E     lcd_putc.c
+02E     lcd_init.@SCRATCH1
+02F     @delay_ms1.P1
+02F     @MUL88.P2
+02F     lcd_gotoxy.x
+02F     kbd_getc.@SCRATCH1
+030     @MUL88.P1
+030     lcd_gotoxy.y
+031     lcd_gotoxy.address
+032     lcd_gotoxy.@SCRATCH1
+033     lcd_send_byte.address
+034     lcd_send_byte.n
+035     lcd_read_byte.low
+035     lcd_send_byte.@SCRATCH1
+036     lcd_read_byte.high
+036     lcd_send_nibble.n
+037     lcd_read_byte.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+095     WPUB
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+0079  @delay_ms1
+0004  KEYS
+0076  kbd_init
+0137  kbd_getc
+0188  @MUL88
+0014  LCD_INIT_STRING
+009B  lcd_read_byte
+008E  lcd_send_nibble
+009A  lcd_send_byte
+00D4  lcd_init
+0100  lcd_gotoxy
+0112  lcd_putc
+01C0  TECLADO
+0208  MAIN
+001C  @const110
+0031  @const111
+0046  @const112
+004C  @const114
+0061  @const116
+0208  @cinit
+
+Project Directory:
+    C:\Documents and Settings\edgiral\Escritorio\Ejercicios Guia PICC, archivo C y proteus\Ejemplo 16.5\
+
+Project Files:
+    ejemplo 16.5.c
+    ..\..\..\..\..\Archivos de programa\PICC\devices\16f886.h
+    ..\..\..\..\..\Archivos de programa\PICC\drivers\KBD.C
+    ..\..\..\..\..\Archivos de programa\PICC\drivers\LCD.C
+
+Units:
+    C:\Documents and Settings\edgiral\Escritorio\Ejercicios Guia PICC, archivo C y proteus\Ejemplo 16.5\ejemplo 16.5.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F886
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ejemplo 16.5.err
+    Ext Symbols: ejemplo 16.5.esym
+    INHX8:       ejemplo 16.5.hex
+    Symbols:     ejemplo 16.5.sym
+    List:        ejemplo 16.5.lst
+    Debug/COFF:  ejemplo 16.5.cof
+    Project:     ejemplo 16.5.PJT
+    Call Tree:   ejemplo 16.5.tre
+    Statistics:  ejemplo 16.5.sta

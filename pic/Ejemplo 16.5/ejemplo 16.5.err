@@ -1,0 +1,4 @@
+>>> Warning 202 "ejemplo 16.5.c" Line 23(5,9): Variable never used:   CONT
+>>> Warning 202 "ejemplo 16.5.c" Line 24(6,7): Variable never used:   J
+      Memory usage:   ROM=9%      RAM=5% - 8%
+      0 Errors,  2 Warnings.
